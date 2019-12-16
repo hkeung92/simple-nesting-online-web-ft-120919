@@ -80,10 +80,17 @@ def adding_matz
           :known_for => "Unix",
           :languages => ["C"]
         },
+<<<<<<< HEAD
         # :yukihiro_matsumoto => {
         #   :known_for => "Ruby",
         #   :languages => ["LISP", "C"]
         # }
+=======
+        :yukihiro_matsumoto => {
+          :known_for => "Ruby",
+          :languages => ["LISP", "C"]
+        }
+>>>>>>> f07498eae8cb732b91dbd4e7eaac986bab08f828
      }
   programmer_hash[:yukihiro_matsumoto] = {
     :known_for => "Ruby",
@@ -100,7 +107,7 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :alans_new_info => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
